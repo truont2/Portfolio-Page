@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    scroll-behavior: smooth; 
+}
+
+h3 {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
+
+.social-icons > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.jumbotron {
+    background: none;
+}
+
+body {
+    margin: 20px;
+    background: radial-gradient(white, #E5CEF6);
+}
+
+.intro {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.projects {
+    opacity: 0;
+    transition: all 400ms ease-out;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.projects:hover {
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 0.8s;
+}
+
+.card-deck {
+    margin-bottom: 10px;
+}
+
+.card {
+    margin: 10px;
+    border: none;
+    height: fit-content;
+    box-shadow: 0 5px 5px rgb(128, 128, 128);
+}
+
+.card > img {
+    height: 250px;
+}
+section {
+    margin-bottom: 15px;
+}
+
+.contact > p {
+    margin-bottom: 0;
+}
+body {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.jumbotron {
+    height: 400px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 2.5rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#description > p {
+    font-size: 20px;
+}
+
+.navbar {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgb(131, 128, 128);
+}
+
+.nav-link {
+    color: white;
+}
+
+.text-color{
+    color: black;
+}
+
+explore {
+    background: blue;
+    padding: 3px;
+}
+
+h3 {
+    text-shadow: 2px 2px 4px rgb(101, 100, 102);
+}
+
+.img-thumbnail {
+    box-shadow: 0 5px 5px rgb(131, 128, 128);
+}
+
+.btn-primary {
+    background: #cb93f3;
+    border: none;
+}
+
